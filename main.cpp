@@ -44,7 +44,7 @@ public:
     {
     Customers obj("farjana","uttara sec13", "an201@gmail.com", 1001, "anika");
     Item item1("Product1", 2, 5);
-    Item item2("Product2", 1, 3
+    Item item2("Product2", 1, 3);
     return 0;
 
 }
