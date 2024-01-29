@@ -12,7 +12,7 @@ private:
     string receiver name;
 
 public:
-    costomers(string name,string address,string email,int destination,string receiver name)
+    coustomers(string name,string address,string email,int destination,string receiver name)
     {
         name=name;
         address=address;
@@ -38,8 +38,13 @@ public:
 
 };
 
-class courier{
-public:
 
 
-};
+    int main()
+    {
+    Customers obj("farjana","uttara sec13", "an201@gmail.com", 1001, "anika");
+    Item item1("Product1", 2, 5);
+    Item item2("Product2", 1, 3
+    return 0;
+
+}
