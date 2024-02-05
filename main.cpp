@@ -9,29 +9,29 @@ private:
     string address;
     string email;
     int destination;
-    string receiver name;
+    string receiver_name;
 
 public:
-    coustomers(string name,string address,string email,int destination,string receiver name)
+    coustomers(string name,string address,string email,int destination,string receiver_name)
     {
         name=name;
         address=address;
         email=email;
         destination=destination;
-        receiver name=receiver name;
+        receiver_name=receiver_name;
     }
 
 };
 class item{
 private:
-    string product name;
+    string productname;
     int quantity;
     int weight;
 
 public:
-    item(string product name,int quantity,int weight)
+    item(string productname,int quantity,int weight)
     {
-        product name=product name;
+        productname=productname;
         quantity=quantity;
         weight=weight;
     }
@@ -42,9 +42,7 @@ public:
 
     int main()
     {
-    Customers obj("farjana","uttara sec13", "an201@gmail.com", 1001, "anika");
-    Item item1("Product1", 2, 5);
-    Item item2("Product2", 1, 3);
+
     return 0;
 
 }
